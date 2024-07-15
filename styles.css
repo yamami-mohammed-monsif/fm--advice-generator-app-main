@@ -66,7 +66,7 @@ body {
     color: var(--clr-primary-400);
     font-size: var(--fs-ID);
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
 }
 
 .btn {
