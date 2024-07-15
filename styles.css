@@ -1,0 +1,78 @@
+
+:root {
+
+    --clr-primary-300: hsl(193, 38%, 86%);
+    --clr-primary-400: hsl(150, 100%, 66%);
+
+    --clr-meutral-300: hsl(217, 19%, 38%);
+    --clr-neutral-400: hsl(217, 19%, 24%);
+    --clr-neutral-600: hsl(218, 23%, 16%);
+
+    --fs-ID: .8rem;
+    --fs-quote: 1.6rem;
+
+    --ff-main: "Manrope", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+    height: 100vh;
+    line-height: 1.5;
+
+    font-family: var(--ff-main);
+    background-color: var(--clr-neutral-600);
+    color: #fff;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: min(90%, 500px);
+}
+
+.advice-card {
+    background-color: var(--clr-neutral-400);
+    border-radius: .7rem;
+    padding-inline: clamp(1rem, 4vw, 3rem);
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.advice {
+    font-size: var(--fs-quote);
+    margin-block: 1rem;
+}
+
+.adviceID {
+    color: var(--clr-primary-400);
+    font-size: var(--fs-ID);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.btn {
+    border: none;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-top: -50%;
+    background-color: var(--clr-primary-400);
+}
